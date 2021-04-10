@@ -40,7 +40,7 @@ result1 = [int(x) for x in result]
 try:
     # Connecting to an existing database
     connection = psycopg2.connect(user="dbuser",
-                                  # пароль, который указали при установке PostgreSQL
+                                  # Password for PostgreSQL DB user
                                   password="**********",
                                   host="127.0.0.1",
                                   port="5432",

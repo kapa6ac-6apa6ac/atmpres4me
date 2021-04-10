@@ -38,7 +38,7 @@ result1 = [int(x) for x in result]
 ################=Connect_to_PGSQL=##########################
 
 try:
-    # Подключение к существующей базе данных
+    # Connecting to an existing database
     connection = psycopg2.connect(user="dbuser",
                                   # пароль, который указали при установке PostgreSQL
                                   password="**********",
